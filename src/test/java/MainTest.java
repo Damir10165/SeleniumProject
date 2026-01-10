@@ -20,14 +20,5 @@ public class MainTest {
         assertTrue(titleIsDisplayed);
 
         driver.quit();
-
-//        driver.findElement(By.xpath("//*[@id='user-name']")).sendKeys(Keys.CONTROL + "A");
-//        driver.findElement(By.xpath("//*[@id='user-name']")).sendKeys(Keys.BACK_SPACE);
-
-//        driver.findElement(By.id("user-name"));
-//        driver.findElement(By.cssSelector("#user-name"));
-//        driver.findElement(By.cssSelector("[id='user-name']"));
-//
-//        driver.findElement(By.xpath("//*[@id='user-name']"));
     }
 }
