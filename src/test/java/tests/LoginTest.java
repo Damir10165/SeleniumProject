@@ -18,6 +18,7 @@ public class LoginTest extends BaseTest {
     public void incorrectLogin() {
         loginPage.openPage();
         loginPage.login("locked_out_user", "secret_sauce");
-        assertEquals(loginPage.checkErrorMessage(), "Epic sadface: Sorry, this user has been locked out.");
+        assertEquals(loginPage.checkErrorMessage(), "Epic sadface: Sorry, this user has been locked out.",
+                "");
     }
 }
